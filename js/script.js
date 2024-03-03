@@ -1,6 +1,6 @@
 const listaUsuarios = document.getElementById('listaUsuarios');
 
-getUsers(listaUsuarios);
+getUsers();
 
 function getUsers() {
 
