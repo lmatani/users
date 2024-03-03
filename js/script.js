@@ -3,9 +3,7 @@ const listaUsuarios = document.getElementById('listaUsuarios');
 getUsers();
 
 function getUsers() {
-
-    let url = 'https://jsonplaceholder.typicode.com/users';
-    fetch(url)
+    fetch('https://jsonplaceholder.typicode.com/users')
         .then((response) => {
             if (!response.ok) {
                 throw new Error('Ha ocurrido un error en la solicitud');
