@@ -11,3 +11,45 @@ h1 {
 }
 
 
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+li {
+  margin: 15px 0px;
+  border: 1px solid rgb(207, 201, 201);
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 5px;
+  width: 420px;
+  margin: 10px 6px;
+}
+
+#infoUsuario {
+  border: 1px solid rgb(207, 201, 201);
+  padding: 0px 5px;
+  width: 65%;
+}
+
+p{
+ font-size: 16px;
+ line-height: 0.2;
+}
+
+img {
+  float: right;
+  top: 10px;
+  width: 100px;
+}
+
+span {
+  font-weight: bold;
+  text-align: left;
+  
+}
