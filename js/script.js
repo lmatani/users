@@ -32,7 +32,7 @@ function  showInfoUsers(dataUsers) {
 
 
 const randomAge = (max, min) => Math.floor(Math.random() * (max - min) + min);
-const imgPath = (id) =>  `..\\assets\\img\\${++id}.jpeg`;
+const imgPath = (id) =>  `\\users\\assets\\img\\${++id}.jpeg`;
 
 function insertUserInList(userCard){
     let liElem = document.createElement('li');
